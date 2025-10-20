@@ -62,18 +62,18 @@ RegisterNetEvent('ox_target:toggleEntityDoor', function(netId, door)
 end)
 
 
-Config = {
-    BlacklistedCornering = {
-        [8] = true,
-        [13] = true,
-        [14] = true,
-        [15] = true,
-        [16] = true,
-        [18] = true,
-        [19] = true,
-        [21] = true,
-    },
-}
+-- Config = {
+--     BlacklistedCornering = {
+--         [8] = true,
+--         [13] = true,
+--         [14] = true,
+--         [15] = true,
+--         [16] = true,
+--         [18] = true,
+--         [19] = true,
+--         [21] = true,
+--     },
+-- }
 
 api.addGlobalVehicle({
     {
